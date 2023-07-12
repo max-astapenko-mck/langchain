@@ -37,6 +37,15 @@ def initialize_agent(
     Returns:
         An agent executor
     """
+    print("TEST")
+    print("TEST")
+    print("TEST")
+    print("TEST")
+    print("TEST")
+    print("TEST")
+    print("TEST")
+    print("TEST")
+    print("TEST")
     tags_ = list(tags) if tags else []
     if agent is None and agent_path is None:
         agent = AgentType.ZERO_SHOT_REACT_DESCRIPTION
